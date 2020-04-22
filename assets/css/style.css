@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap');
+
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+	background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+	background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+	background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+	background-attachment: fixed;
+	font-family: 'Baloo Paaji 2', cursive;
+}
+
+.heading {
+	margin-top: 5%;
+}
+
+.heading img {
+	width: 100px;
+	height: 100px;
+}
+
+.heading hr {
+	width: 48px;
+	border: 2px solid white;
+	border-radius: 5px;
+	color: white;
+}
+
+.form label {
+	color: white;
+}
+
+.form div {
+	margin-bottom: 15px;
+}
+
+.btn {
+	background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+	color: white;
+	border: none;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.btn:hover {
+	color: white !important;
+}

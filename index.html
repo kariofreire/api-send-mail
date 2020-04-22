@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>API - MAIL</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Kário Freire">
+	<meta property="og:locale" content="PT-BR">
+	<meta property="og:image" content="assets/images/icon-message.png" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:description" content="API de envio de email com PHP" />
+	<meta name="twitter:title" content="Site Kário Freire" />
+	<link rel="shortcut icon" href="assets/images/icon-message.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 offset-md-2">
+				<header class="text-center heading">
+					<img src="assets/images/icon-message.png" alt="Mensagem de Email">
+					<hr>
+				</header>
+				<div class="form">
+					<div class="col-md-12">
+						<label>Nome Completo:</label>
+						<input type="text" class="form-control" id="user_name" placeholder="Digite seu nome">
+					</div>
+					<div class="col-md-12">
+						<label>Enviar para:</label>
+						<input type="mail" class="form-control" id="user_mail_for" placeholder="Digite um email">
+					</div>
+					<div class="col-md-12">
+						<label>Nome Completo:</label>
+						<textarea class="form-control" id="user_message" placeholder="Digite uma Mensagem" rows="5"></textarea>
+					</div>
+					<div class="col-md-12">
+						<button type="button" id="sendMail" class="btn btn-lg btn-block">&nbsp;Enviar&nbsp;</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript">
+		$("#sendMail").click(function(){
+			$.post("https://apimailkariofreire.000webhostapp.com/controller/api.php", {
+				user_name: $("#user_name").val(),
+				user_mail_for: $("#user_mail_for").val(),
+				user_message: $("#user_message").val()
+			}, function(result) {
+				alert(result);
+				console.log(result);
+			});
+		});
+	</script>
+</body>
+</html>
