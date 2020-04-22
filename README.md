@@ -46,6 +46,6 @@ Segue abaixo um modelo de retorno da Request:
 E-mails enviados hoje: **X**.
 ```
 
-###### (Onde **X** é a quantidade de emails enviados no dia)
+###### (Onde X é a quantidade de emails enviados no dia)
 ---
 Feito com ❤️ by Kário Freire
