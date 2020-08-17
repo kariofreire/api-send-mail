@@ -11,7 +11,7 @@ Para isso é super simples, você vai precisar da CDN jQuery.
 
 Segue a url do arquivo hospedado em nosso projeto:
 ```
-https://apimailkariofreire.000webhostapp.com//view/assets/js/bootstrap.min.js
+https://apimailkariofreire.000webhostapp.com/view/assets/js/jquery.min.js
 ```
 
 Segue agora um modelo de como estar enviando email com API.
