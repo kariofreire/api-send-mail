@@ -6,7 +6,7 @@
 ### :rocket: EXEMPLO DE USO
 #
 Enviar Email usando servidor da 000WebHost.
-A Hosting oferece uma quota de 50 envio de emails diários por cada conta. Criei esse modelo de API para ajudar os demais interessados já que muitos não tem suporte de envios de email em seu servidor ou aplicação.
+A Hosting oferece uma quota de 25 envio de emails diários por cada conta. Criei esse modelo de API para ajudar os demais interessados já que muitos não tem suporte de envios de email em seu servidor ou aplicação.
 Para isso é super simples, você vai precisar da CDN jQuery.
 
 Segue a url do arquivo hospedado em nosso projeto:
